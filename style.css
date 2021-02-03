@@ -1,0 +1,1379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.logo {
+    margin: 15px;
+    
+}
+
+.topbar .container {
+  height: 9em;
+    position: relative
+}
+
+.topbar .container .centeredtext h1{
+  margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.nav-link {
+    font-size: 1em;
+    margin: 5px;
+    font-weight: bold;
+    color: #2a2737 !important;
+}
+
+.nav-link:hover{
+    color: #9E99AF !important;
+}
+
+.active .nav-link {
+  background: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sticky-top{
+    background-color: white;
+}
+   
+
+.menu-right-btn{
+    padding: 13px 40px;
+    margin: 15px;
+  height: 48px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 24px;
+  background-color: #2a2737;
+  transition: all 300ms ease-in;
+}
+
+.menu-right-btn a{
+ 
+color: #ffffff;
+font-weight: bold;
+border-radius: 24px;
+text-decoration: none;
+transition: all 300ms ease-in;
+padding-top: 13px;
+}
+
+.menu-right-btn:hover {
+    background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+}
+
+.container-1 {
+    position: relative;
+    text-align: center;
+    color: #2A2737;
+  }
+  .center-text {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .center-text h1{
+    font-weight: 900;
+    font-size: 5em;
+    margin-top: 20%;
+  }
+  .center-text p{
+    margin-top: 5%;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+  }
+  .container-1 img{
+    width: 100%;
+  height: auto;
+}
+
+
+.site-btn{
+    border: none;
+    margin-top: 5%;
+    border-radius: 35px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+    margin-left: 3%;
+}
+
+.site-btn:hover {
+  color: #9E99AF;
+}
+
+
+
+/* -------------------------------------Section-------------------------------------------- */
+
+.section {
+  background-color: white;
+  
+}
+.section a{
+  color: white;
+  text-decoration: none;
+  border: none;
+  padding: 4%;
+  border-radius: 35px;
+  font-weight: bold;
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  display: block;
+  max-width: 60%;
+}
+
+.section a:hover {
+  color: #9E99AF;
+}
+
+.section .row .col-md-7, .col-md-5{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section .col-md-5 .h1text-white{
+  margin-top: -13%;
+}
+
+.section img {
+ 
+  width: 100%;
+  height: auto;
+}
+
+.section .p-1 {
+  color: #2A2737;
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+.section .h1text-white{
+  color: #2A2737;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: -5%;
+}
+
+
+
+.col-md-5 ul li{
+  margin: auto;
+}
+/*--------------------------------------------------------- Section 1 ---------------------------------------------*/
+
+.section-1 {
+    background-color: #2A2737;
+    
+}
+.section-1 a{
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    padding: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 35px;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+    
+}
+
+.section-1 a:hover {
+  color: #9E99AF;
+}
+
+.section-1 .row .col-md-7, .col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.section-1 img {
+   
+    width: 100%;
+    height: auto;
+}
+
+.p-1 {
+    color: white;
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.h1text-white{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.section-1 .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*-------------------------------------------------- Section-2 --------------------------------------*/
+
+.section-2{
+    margin-bottom: 8%;
+}
+
+.section-2 .heading-1{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-weight: 700;
+    color: #2a2737;
+}
+
+.section-2 .card-body {
+color: #2a2737;
+
+}
+
+.section-2 .card-body h4{
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.section-2 .card-body p{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.section-2 .p-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+
+
+.section-2 img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+.card {
+    width: 20rem;
+}
+/* --------------------------------------------Section-3------------------------------------------ */
+
+.section-3 {
+
+    width: 100%;
+    margin: 0;
+}
+.col-sm:nth-child(1) {
+    background-color: #ea33f8;
+    color: white;
+}
+.col-sm:nth-child(2) {
+    background-color: #f42862;
+    color: white;
+}
+.col-sm:nth-child(3) {
+    background-color: #f28f1a;
+    color: white;
+}
+
+.col-sm img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 15%;
+  margin-bottom: 3%;
+  color: white;
+}
+.section-3 h1{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+.section-3 p{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 35px;
+  margin-bottom: 5%;
+}
+
+hr.new1 {
+  border-top: 8px solid #2A2737;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------Footer------------------------------------------------- */
+
+.footer {
+
+  width: 100%;
+  margin: 0;
+}
+
+
+
+
+.footer .col-sm:nth-child(1) {
+  background-color: white;
+    color: #2A2737;
+    text-align: center;
+}
+.footer .col-sm:nth-child(2) {
+  background-color: white;
+    color: #2A2737;
+    text-align: center;
+}
+.footer .col-sm:nth-child(3) {
+  background-color: white;
+    color: #2A2737;
+    text-align: center;
+}
+
+.footer img{
+  margin-top: 0;
+  transform: scale(1);
+}
+
+
+
+.footer i{
+  
+  font-size: 3em;
+}
+
+.footer a{
+  color: #f42862;
+}
+
+
+/* ------------------------------------------------------- VORES BILER ------------------------------------------------------ */
+
+.topbar {
+  height: 200px;
+  background-color: #2A2737;
+}
+.topbar .text-center {
+  color: white;
+  padding-top: 5%;
+  font-weight: 700;
+  
+}
+
+.topbar2 {
+  height: 15px;
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+}
+
+.cars-grid {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 1%;
+  display: none;
+}
+
+.cars-grid .card-title {
+  color: #2a2737;
+} 
+
+.cars-grid .card {
+  background-color: #F0F0F1;
+  border: none;
+}
+
+
+.cars-grid .container .col{
+margin-bottom: 2%;
+}
+
+.cars-grid .card-title {
+  font-weight: 700;
+}
+
+.cars-grid .col-sm {
+  background-color: #F0F0F1;
+  color: #2a2737;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+
+.cars-grid .col-sm img{
+  width: 50px;
+  background-color: #F0F0F1;
+  
+}
+
+.cars-grid .col .icon{
+  width: 50px;
+  background-color: #F0F0F1;
+  
+}
+
+
+
+.cars-grid .col p{
+  font-size: 0.66em;
+  font-weight: 600;
+  
+}
+
+.cars-grid .col-sm p{
+  font-size: 0.66em;
+  font-weight: 600;
+}
+
+.cars-grid .d-grid .btn {
+  
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 0.9em;
+  border-radius: 24px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.cars-grid .d-grid .btn:hover {
+  color: #9E99AF;
+}
+
+.card-deck {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  
+}
+
+.card-deck .card-title {
+  color: #2a2737;
+  font-weight: 700;
+}
+
+.card-deck .col .icon {
+  width: 50px;
+  background-color: #F0F0F1;
+  margin-top: 1%;
+  
+}
+
+.card-deck .card {
+  font-size: 0.66em;
+  font-weight: 600;
+  background-color: #F0F0F1;
+  color: #2a2737;
+}
+
+
+
+.card-deck .d-grid .btn {
+  
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 1.5em;
+  border-radius: 24px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-deck .d-grid .btn:hover {
+  color: #9E99AF;
+}
+/* ------------------------------------------------------- BILERNE ------------------------------------------------------ */
+
+
+
+.car h1{
+  margin-top: 3%;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.car p{
+  font-size: 1.4em;
+}
+
+
+.car .flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.car .flex-container a{
+  color: white;
+  text-decoration: none;
+}
+
+.car .flex-container a:hover{
+  color: #9E99AF;
+  text-decoration: none;
+}
+
+
+.car .btn {
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+        border: none;
+        font-weight: 600;
+        font-size: 1em;
+        border-radius: 24px;
+        padding: 1%;
+        max-width: 30%;
+        margin-bottom: 3%;
+        
+}
+
+.car .btn:hover{
+  color:#9E99AF;
+}
+.car .jumbotron {
+  border-radius: 10px;
+}
+
+
+.car .jumbotron h1 {
+  font-size: 1.4em;
+  margin-top: -3%;
+
+}
+
+.car .jumbotron p {
+  font-size: 1.1em;
+  font-weight: 400;
+
+}
+
+.car .jumbotron img{
+  width: 40px;
+margin-right: 3%;
+margin-top: 2%;
+}
+
+.car .jumbotron .row {
+  margin-left: 1%;
+}
+
+.car .jumbotron .col {
+  margin-bottom: 1%;
+  font-weight: 500;
+}
+
+.carousel-control-prev-icon {
+  
+  
+  padding: 10%;
+  margin: 10%;
+ opacity: 80%;
+}
+.carousel-control-prev-icon:hover {
+  
+  background-color: lightgray;
+  padding: 10%;
+  margin: 10%;
+  opacity: 80%;
+}
+.carousel-control-next-icon:hover {
+  
+  background-color: lightgray;
+  padding: 10%;
+  margin: 10%;
+  opacity: 80%;
+}
+
+.carousel-control-next-icon {
+  
+  
+  padding: 10%;
+  margin: 10%;
+  opacity: 80%;
+}
+
+.back img{
+  width: 40px;
+  margin-right: 1%;
+}
+.back {
+  font-size: 1em;
+  font-weight: 600;
+  color: #2a2737;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+}
+
+
+/* ------------------------------------------------------- Prisliste ------------------------------------------------------ */
+
+
+.priser .jumbotron{
+  margin-top: 3%;
+  border-radius: 2%;
+}
+
+
+.priser h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-left: 0.5%;
+}
+
+.priser p{
+  font-weight: 400;
+  margin-left: 1%;
+}
+
+.priser h2
+{
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-left: 0.5%;
+  
+}
+
+.priser h3
+{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-left: 2%;
+}
+
+.priser .jumbotron img{
+  width: 10px;
+  margin-right: 2%;
+  }
+
+/* ------------------------------------------------------- Sikkerhed ------------------------------------------------------ */
+
+
+
+.sikkerhed .btn{
+  margin-left: 1%;
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 1.3em;
+  border-radius: 35px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 10%;
+}
+
+.sikkerhed p{
+  font-weight: 500;
+  margin-left: 1%;
+}
+
+.sikkerhed .jumbotron img{
+  width: 15px;
+  margin-right: 2%;
+  }
+
+
+/* ------------------------------------------------------- Galleri ------------------------------------------------------ */
+
+
+.galleri h1{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.galleri .embed-responsive {
+  margin-bottom: 15%;
+}
+
+
+
+/* ------------------------------------------------------- Ruter ------------------------------------------------------ */
+
+
+
+.ruter .btn{
+  margin-left: 1%;
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 1.3em;
+  border-radius: 35px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 10%;
+}
+
+.ruter p{
+  font-weight: 500;
+  margin-left: 1%;
+}
+
+.ruter .jumbotron img{
+width: 15px;
+margin-right: 2%;
+}
+
+
+/* ------------------------------------------------------- Kontakt ------------------------------------------------------ */
+
+.kontakt h1{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.kontakt .form-control{
+background-color: #2a2737;
+margin-top: -2%;
+color: white;
+padding-left: 1%;
+font-size: 1em;
+font-weight: 500;
+}
+
+
+
+
+.kontakt .btn {
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 1.3em;
+  border-radius: 35px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+
+
+
+.kontakt .card{
+  border: none;
+
+}
+
+
+
+.kontakt .card h5{
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-left: -3%;
+}
+
+.kontakt .card p{
+  font-size: 1.9em;
+  font-weight: 400;
+  margin-left: -3%;
+}
+
+/* ------------------------------------------------------- Kontakt ------------------------------------------------------ */
+
+.tilbud h1{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.tilbud h3{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.tilbud p{
+  margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    font-weight: 400;
+}
+
+.tilbud .form-control{
+  background-color: #2a2737;
+  margin-top: 1%;
+  color: white;
+  padding-left: 1%;
+  font-size: 1em;
+  font-weight: 500;
+  }
+
+  .tilbud .btn {
+    background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+    border: none;
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 35px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+  
+/*------------------------------------------------- Media Queries ---------------------------------------- */
+
+
+
+@media (max-width: 1200px) {
+    .center-text h1{
+      margin-top: 15%;
+        font-weight: 900;
+        font-size: 3em;
+}
+
+.nav-link {
+  font-size: 0.92em;
+}
+
+.logo {
+  transform: scale(0.9);
+}
+
+.menu-right-btn{
+  padding: 13px 20px;
+  margin: 15px;
+height: 48px;
+color: #ffffff;
+font-weight: bold;
+border-radius: 24px;
+background-color: #2a2737;
+transition: all 300ms ease-in;
+}
+.footer img{
+  margin-top: 5%;
+  transform: scale(1);
+}
+.section-2 .card-body h4{
+  font-size: 1.6em;
+  font-weight: 500;
+}
+.card {
+  width: 18rem;
+                }
+
+                .card-deck .card-title {
+                  color: #2a2737;
+                  font-weight: 700;
+                  font-size: 1.8em;
+                }
+                
+                .card-deck .col .icon {
+                  width: 40px;
+                  background-color: #F0F0F1;
+                  margin-top: 1%;
+                  
+                }
+                
+                .card-deck .card {
+                  font-size: 0.5em;
+                  font-weight: 700;
+                  background-color: #F0F0F1;
+                  color: #2a2737;
+                }
+                
+                
+                
+                .card-deck .d-grid .btn {
+                  font-size: 2em;
+                  padding-left: 8%;
+                  padding-right: 8%;
+                }
+
+@media (max-width: 992px) { 
+
+
+
+
+    .center-text h1{
+      margin-top: 5%;
+    font-weight: 900;
+    font-size: 3em; }
+    .center-text p{
+        margin-top: 5%;
+        font-size: 0.9em;
+        font-weight: 600;
+        text-align: center;
+      }
+
+
+    .center-text {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .card {
+        width: 14rem;
+                      }
+                      .footer img{
+                        margin-top: 5%;
+                        transform: scale(2);
+                      }
+
+                      .section-2 .card-body h4{
+                        font-size: 1.6em;
+                        font-weight: 500;
+                      }
+                      .car .jumbotron h1 {
+                        font-size: 1.4em;
+                        margin-top: -7%;
+                      
+                      }
+
+                      .site-btn{
+                        font-size: 1.1em;
+                        margin-left: 7%;
+                      }
+          
+                      
+
+                      .cars-grid {
+                        display: none;
+                      }
+                      
+                      
+                      
+                      .card-deck .card-title {
+                        color: #2a2737;
+                        font-weight: 700;
+                        font-size: 1.4em;
+                      }
+
+                      .card-deck .col {
+                        margin-right: -3%;
+                      }
+                      
+                      .card-deck .col .icon {
+                        width: 30px;
+                        background-color: #F0F0F1;
+                        margin-top: 1%;
+                        
+                        
+                      }
+                      .card-deck .col p {
+                        font-size: 1.01em;
+                        font-weight: 700;
+                        background-color: #F0F0F1;
+                        color: #2a2737;
+                        
+                      }
+
+                      .car .jumbotron .row {
+                        margin-left: -2.5%;
+                      }
+                      
+                      
+      @media (max-width: 768px) {
+       
+        .cars-grid{
+          display: block;
+        }
+        
+        .card-deck{
+          display: none;
+        }
+        
+       
+       
+       
+        .center-text h1{
+          margin-top: 15%;
+            font-weight: 900;
+            font-size: 2em; }
+            .center-text p{
+                margin-top: 5%;
+                font-size: 0.9em;
+                font-weight: 600;
+                text-align: center;
+              }
+        
+              .site-btn{
+ 
+                font-size: 0.9em;
+                
+              }
+        
+            .center-text {
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+
+              .card {
+width: 35rem;
+              }
+              .section-1 .row .col-md-7, .col-md-5 img{
+                margin-bottom: -5%;
+
+            }
+
+            .logo {
+              transform: scale(0.8);
+              margin: 0;
+          }
+
+      }
+      .section-1 .h1text-white{
+        color: white;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 5%;
+        
+    }
+      .section .h1text-white{
+        color: #2A2737;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: -5%;
+        margin-top: 3%;
+      }
+      .section .col-md-5 .h1text-white{
+        margin-top: -7%;
+      }
+      .footer img{
+        margin-top: 5%;
+        transform: scale(1.5);
+      }
+      
+      .footer i{
+  
+        font-size: 2em;
+      }
+
+      .section-2 .col-md-4 {
+        margin-bottom: 4%;
+      }
+
+
+      .cars-grid .d-grid .btn {
+  
+        background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+        border: none;
+        font-weight: 600;
+        font-size: 1em;
+        border-radius: 35px;
+        display: block;
+      }
+
+      .car .jumbotron img{
+        width: 30px;
+      margin-right: 3%;
+      margin-top: 2%;
+      }
+
+      .car .jumbotron .row {
+        
+        font-weight: 500;
+        font-size: 1.1em;
+        display: flex;
+  flex-direction: column;
+      }
+
+      .car .jumbotron .row .col {
+        margin-bottom: 6%;
+        font-weight: 500;
+        font-size: 1.1em;
+      }
+
+      .car h1{
+        margin-top: 3%;
+        font-size: 2em;
+        font-weight: 700;
+      }
+      
+      .car p{
+        font-size: 1em;
+      }
+      .car .btn {
+  max-width: 50%;
+  padding: 2%;
+}
+
+
+.kontakt .card-deck {
+  display: flex;
+}
+
+.kontakt .btn {
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 1.3em;
+  border-radius: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+
+.tilbud .btn {
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 1.3em;
+  border-radius: 35px;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 5%;
+  margin-top: 1%;
+}
+.galleri h1 {
+  font-size: 1.7em;
+}
+
+@media (min-width: 768px) {
+  .cars-grid{
+    display: none;
+  }
+  
+  .card-deck{
+    display: flex;
+  }
+
+}
+
+
+
+      @media (max-width: 576px) 
+      { .center-text h1{
+        margin-top: -10%;
+        font-weight: 900;
+        font-size: 1.7em; }
+        .center-text p{
+            display: none;
+          }
+    
+    
+        .center-text {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+          .card {
+            width: 15rem;
+            display: block;
+  margin-left: auto;
+  margin-right: auto;      }
+  .logo {
+    transform: scale(0.7);
+    margin: 0;
+}
+.site-btn{
+ 
+  font-size: 0.8em;
+  margin-left: 9%;
+}
+.section .h1text-white{
+  color: #2A2737;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: -5%;
+  margin-top: 3%;
+  font-size: 1.7em;
+}
+
+.section-1 a{
+  font-size: 0.8em;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.footer img{
+  margin-top: 5%;
+  transform: scale(1);
+}
+
+.car .jumbotron .row {
+        
+  font-weight: 500;
+  font-size: 1em;
+  display: flex;
+flex-direction: column;
+}
+
+.car .jumbotron .row .col {
+  margin-bottom: 10%;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+
+.car .jumbotron img{
+  width: 25px;
+margin-right: 3%;
+margin-top: 2%;
+}
+
+.centeredtext {
+  padding-top: 8%;
+}
+
+.car .btn {
+  max-width: 50%;
+  padding: 2%;
+}
+.topbar .text-center {
+  color: white;
+  padding-top: 5%;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.back img{
+  width: 35px;
+  margin-right: 1%;
+}
+
+.back {
+  font-size: 0.9em;
+}
+
+.ruter .btn{
+  margin-left: 1%;
+  background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+  border: none;
+  font-weight: 600;
+  font-size: 0.75em;
+  border-radius: 24px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 10%;
+}
+
+.kontakt h1{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 1.7em;
+  font-weight: 700;
+}
+
+.cars-grid{
+  display: none;
+}
+
+.card-deck{
+  display: block;
+}
+
+.tilbud p{
+  margin-left: auto;
+    margin-right: auto;
+    width: 19em;
+    font-weight: 400;
+}
+
+.tilbud .form-control{
+  background-color: #2a2737;
+  margin-top: 1%;
+  color: white;
+  padding-left: 1%;
+  font-size: 0.7em;
+  font-weight: 500;
+  }
+
+  .kontakt .btn {
+    background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+    border: none;
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+  
+  .tilbud .btn {
+    background-image: linear-gradient(120deg, #ea33f8, #f42862, #f28f1a);
+    border: none;
+    font-weight: 600;
+    font-size: 1.3em;
+    border-radius: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+
+
+  .galleri h1 {
+    font-size: 1.7em;
+  }
+
+  .card-deck .d-grid .btn {
+    font-size: 2em;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+@media (max-width: 320px) { 
+  .center-text h1{
+    margin-top: -15%;
+    font-weight: 900;
+    font-size: 1.4em; }
+
+    .section .h1text-white{
+      color: #2A2737;
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: -5%;
+      margin-top: 3%;
+      font-size: 1.2em;
+    }
+    .section .p-1 {
+      font-size: 0.8em;
+    }
+}
+      }
+    }
+}
